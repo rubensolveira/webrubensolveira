@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="gal">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Ruben Solveira">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="Ruben Solveira, scripts">
+    <title>Sitio de Rubén Solveira</title>
+    <link rel="icon" href="img/cocho.jpg" type="image/jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins';
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MH2TP88QEF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MH2TP88QEF');
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand waves-effect" href="#">
+                    <strong class="blue-text">RSS</strong>
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="mailto:solveira.ruben@gmail.com" class="elegant-color text-center nav-link border border-light rounded waves-effect waves-light p-2">
+                                <i class="fa fa-envelope mr-2"></i>solveira.ruben@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a href="https://www.youtube.com/channel/UC9xGkKmev_y_A0e97cjLxxg" class="primary-color-dark text-center nav-link border border-light rounded waves-effect waves-light p-2">
+                                <i class="fab fa-youtube mr-2"></i>YouTube <br> <span style="font-size:12px">Rubén
+                                    Solveira</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a href="https://github.com/rubensolveira" class="deep-purple darken-4 text-center nav-link border border-light rounded waves-effect waves-light p-2">
+                                <i class="fab fa-github mr-2"></i>GitHub <br> <span style="font-size:12px">Rubén
+                                    Solveira</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="cabeceira text-white space-lg pt-5">
+        <div class="container">
+            <div class="text-white  mt-5 py-5 px-5">
+                <div class="row rounded shadow-lg align-items-center" style=" background: rgba(0, 0, 0, 0.4)!important;">
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-2"></div>
+                            <div class="col-8">
+                                <img alt="imagen" src="./img/ruben2.jpg" class="my-3 img-fluid d-flex align-items-center rounded-circle">
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="py-3">
+                            Ola son Rubén Solveira estudante de enxeñaría informática. <br> Aqui irei poñendo cousas que vaia facendo cando me aburra.
+			   <!-- Aínda que últimamente non me está gustando nada esto de ser "ingeniero informático" e non sei moi ben
+                            que facer ca miña vida.
+			    De momento deixo aqui todas estas cousas para que algún día cando mire atrás poida ver o que fun capaz de facer. -->
+                        </p>
+                    </div>
+                </div>
+
+                <p class="pt-4"> Importante! Eu e uns amigos estamos facendo un xogo en Unity, se alguén se presta a axudar que me faga unha contactación.
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light1">
+        <div class="container text-center">
+            <div class="row wow fadeIn pt-5">
+
+                <div class="col-md-4 mb-4">
+                    <a href="script/mandelbrot/" target="_blank">
+                        <div class="card hoverable">
+                            <video class="video-fluid" autoplay loop muted>
+                                <source src="img/previsualizacion/mandelbrot.mp4" />
+                            </video>
+                            <div class="px-0 d-flex justify-content-start">
+                                <span class="primary-color-dark white-text">08/2019</span>
+                            </div>
+                            <div class="card-body pt-1">
+                                <h4 class="card-title">Conxunto de Mandelbrot</h4>
+                                <p class="card-text">Poderás facer zoom e mirar o resultado de cada iteracion.
+                                    <br>
+                                    <br> Z = Z^2 + C
+                                    <br>
+                                    <br> Vanse facendo iteracións. Z inicialmente vale 0. C é o valor de cada punto do plano.
+                                    <!--Si o punto é blanco significa que por moito que sigas iterando o punto converxe.
+								Si é negro significa que o punto diverxe.-->
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <a href="script/julia/" target="_blank">
+                        <div class="card hoverable">
+                            <video class="video-fluid" autoplay loop muted>
+                                <source src="img/previsualizacion/julia.mp4" />
+                            </video>
+                            <div class="px-0 d-flex justify-content-start">
+                                <span class="primary-color-dark white-text">08/2019</span>
+                            </div>
+                            <div class="card-body pt-1">
+                                <h4 class="card-title">Conxunto de Julia</h4>
+                                <p class="card-text">Mesmo proceso que o conxunto de Mandelbrot. Donde K é un punto constante. Z inicialmente é cada punto do plano.
+                                    <br>
+                                    <br> Z = Z^2 + K
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <a href="script/fractalnewton/" target="_blank">
+                        <div class="card hoverable">
+                            <img src="img/previsualizacion/fractalnewton.png" class="img-fluid" alt="">
+                            <div class="px-0 d-flex justify-content-start">
+                                <span class="primary-color-dark white-text">08/2019</span>
+                            </div>
+                            <div class="card-body pt-1">
+                                <h4 class="card-title">Fractal de newton</h4>
+                                <p class="card-text"> f(Z) = Z^5 - 1 </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <!--row-->
+
+            <div class="row wow fadeIn">
+
+                <div class="col-md-4 mb-4">
+                    <a href="script/paxaros/" target="_blank">
+                        <div class="card hoverable">
+                            <img src="img/previsualizacion/paxaros.png" class="img-fluid" alt="">
+                            <div class="px-0 d-flex justify-content-start">
+                                <span class="primary-color-dark white-text">12/2019</span>
+                            </div>
+                            <div class="card-body pt-1">
+                                <h4 class="card-title">Paxaros</h4>
+                                <p class="card-text">Un montón.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- <div class="col-md-4 mb-4">
+                <a href="script/mandelbrotcangrejo/" target="_blank">
+                    <div class="card hoverable">
+                        <img src="img/previsualizacion/mandelbrotcangrejo.png" class="img-fluid" alt="">
+                        <div class="px-0 d-flex justify-content-start">
+                            <span class="primary-color-dark white-text">12/2019</span>
+                        </div>
+                        <div class="card-body pt-1">
+                            <h4 class="card-title">Cangrexo</h4>
+                            <p class="card-text">
+                                Faise mediante o método de Mandelbrot. Partindo dun punto,
+                                calcúlase a sucesión de forma iterativa mediante unha fórmula.
+                                <br> Z = SinH(Z^2) + 1/C
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+
+                <div class="col-md-4 mb-4">
+                    <a href="script/rubik/" target="_blank">
+                        <div class="card hoverable align-items-center">
+                            <img src="img/previsualizacion/rubik.jpg" class="img-fluid" alt="" style="max-height: 200px; max-width:200px">
+                            <div class="px-0 col d-flex justify-content-start">
+                                <span class="primary-color-dark white-text">02/2020</span>
+                            </div>
+                            <div class="card-body pt-1">
+                                <h4 class="card-title">Rubik v0.002</h4>
+                                <p class="card-text">Está sen acabar e non se resolve enteiro. Algún día acabareino.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <a href="script/INMIRNASA2/" target="_blank">
+                        <div class="card hoverable">
+                            <video class="video-fluid" autoplay loop muted>
+                                <source src="img/previsualizacion/INMIRNASA2.mp4" />
+                            </video>
+                            <div class="px-0 d-flex justify-content-start">
+                                <span class="primary-color-dark white-text">06/2020</span>
+                            </div>
+                            <div class="card-body pt-1">
+                                <h4 class="card-title">INMIRNASA2</h4>
+                                <p class="card-text">Identificación de Notas Musicais e Instrumentos mediante Redes Neuronais e Aprendizaxe Supervisado Ale Adeus
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <!--row-->
+
+            <div class="row wow fadeIn">
+
+
+                <div class="col-md-4 mb-4">
+                    <a href="script/mnist/" target="_blank">
+                        <div class="card hoverable">
+                            <video class="video-fluid" autoplay loop muted>
+                                <source src="img/previsualizacion/mnist.mp4" />
+                            </video>
+                            <div class="px-0 d-flex justify-content-start">
+                                <span class="primary-color-dark white-text">06/2020</span>
+                            </div>
+                            <div class="card-body pt-1">
+                                <h4 class="card-title">MNIST</h4>
+                                <p class="card-text"> A mítica. Con tensorflow e capas convolucionais
+                                </p>
+                                <p class="card-text text-grey"> ** AVISO **, si teu navegador ten zoom metido, non funciona, bug.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <a href="script/tommyelletraquer/" target="_blank">
+                        <div class="card hoverable">
+                            <video class="video-fluid" autoplay loop muted>
+                                <source src="img/previsualizacion/tommyelletraquer.mp4" />
+                            </video>
+                            <div class="px-0 d-flex justify-content-start">
+                                <span class="primary-color-dark white-text">07/2020</span>
+                            </div>
+                            <div class="card-body pt-1">
+                                <h4 class="card-title">tommy elle traquer</h4>
+                                <p class="card-text">Traqueador de vista con tensorflow. A rede está sen entrenar. Vas a necesitar un ordenador p0tente
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <a href="script/rubikxen/" target="_blank">
+                        <div class="card hoverable">
+                            <video class="video-fluid" autoplay loop muted>
+                                <source src="img/previsualizacion/rubikxen.mp4" />
+                            </video>
+                            <div class="px-0 d-flex justify-content-start">
+                                <span class="primary-color-dark white-text">08/2020</span>
+                            </div>
+                            <div class="card-body pt-1">
+                                <h4 class="card-title">Rubik xenético</h4>
+                                <p class="card-text">Dispúñame a terminar o rubik v0.002 que hai 8 meses que o deixei e está sen acabar. Naquel momento había duas personas que sabían como funcionaba o código: eu e dios todopoderoso. Ahora mesmo, 8 meses despois, só dios sabe
+                                    como funciona. Así que intento resolver o cubo mediante algoritmo xenético.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <!--/row-->
+        </div>
+    </section>
+
+    <section class="bg-light1 pb-5">
+        <div class="container border z-depth-1 card" id="che">
+            <div class="row">
+                <img src="img/previsualizacion/che2.jpg" class="img-fluid">
+                <div class="px-0 d-flex justify-content-start">
+                    <span class="primary-color-dark white-text">09/2020</span>
+                </div>
+            </div>
+            <div class="row justify-content-center px-5 py-4">
+                <div class="col">
+                    <h4 class="text-primary h4">Axedrez con visualización de árbore minimax</h4>
+                    <p>Quería aplicar e visualizar unha árbore minimax, así que fixen un xogo de xadrez con Unity para Web. Pódelo xogar desde un navegador de PC (móbil no).</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md mx-2">
+                    <video class="video-fluid rounded" autoplay loop muted>
+                        <source src="img/previsualizacion/che1.mp4" />
+                    </video>
+                </div>
+                <div class="col-md mx-2">
+                    <video class="video-fluid rounded" autoplay loop muted>
+                        <source src="img/previsualizacion/che2.mp4" />
+                    </video>
+                </div>
+                <div class="col-md mx-2">
+                    <video class="video-fluid rounded" autoplay loop muted>
+                        <source src="img/previsualizacion/che3.mp4" />
+                    </video>
+                </div>
+            </div>
+
+            <div class="row py-4 mx-3">
+                <p>Ti controlas ao xogador branco. O xogador negro será controlado por un algoritmo minimax, que escollerá as mellores xogadas. Vaise a xerar e visualizar a árbore minimax cada vez que movas unha peza. Podes escoller a profundidade da árbore.
+                    Podes voar para recorrelo e podes ver as estadísticas de cada tableiro-nodo-movemento xerado.
+                    <br> Cousas a ter en conta:
+                </p>
+
+                <ul>
+                    <li>Podes escoller a profundidade da árbore, de 1 a 3.
+                        <ul>
+                            <li>
+                                Con profundidad 1 o xogador negro é malísimo, xa que só contempla o movemento seguinte. Rápido en xerar a árbore.
+                            </li>
+                            <li>
+                                Con profundidade 2 conténplanse os dous movementos seguintes. Tarda bastante (5-15 segundos) en xerar a árbore. Ocupa 1 GB de RAM.
+                            </li>
+                            <li>
+                                Profundidade 3, impracticable xd. Tarda mais de 1 minuto e ocupa mais de 16 GB de RAM. Posiblemente non funcione. Éche o que hai.
+                            </li>
+                        </ul>
+                    </li>
+<!--
+                    <li>
+                        Sii xa sei, o rendemento vai como o cú, só queria aplicar e visualizar a árbore minimax.
+                    </li>
+                    <li>
+                        Non se contemplan movementos como enroque ou passant. Tampouco se contempla xaque e xaque-mate. Non pretendía facer un xogo de xadrez con todas as suas regras, só quería aplicar e visualizar a árbore minimax.
+                    </li>
+                    <li>
+                        Ao principio cando empezas a xogar os 10 primeiros segundos vai con tiróns, despois xa vai fino.
+                    </li>
+-->    
+   	         </ul>
+            </div>
+
+            <div class="row justify-content-center">
+                <a href="chess/" class="button btn-success px-5 py-2 hoverable mb-3" target="_blank"><i
+                        class="fas fa-play p-2 mr-3"></i> Xogar ahora</a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="view">
+        <video class="video-intro" autoplay loop muted>
+            <source src="img/tester.mp4" type="video/mp4" />
+        </video>
+
+        <div class="mask rgba-black-slight d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row d-flex h-100 justify-content-center align-items-center wow fadeIn">
+                    <div class="col-md-6 mb-4 white-text text-center text-md-left">
+                        <h1 class="display-4 font-weight-bold">TESTER</h1>
+                        <hr class="hr-light">
+                        <p class="h4">
+                            Despértaste de súpeto nun lugar bastante coñecido... No teu propio videoxogo! Como chegaches ata ahí?
+                        </p>
+                        <p class="mb-4 h6">
+                            Impresionante videoxogo en VR 4K 1 link MEGA. Conseguirás pasar os 5 niveis para gañar?
+                        </p>
+                        <p class="mb-4">
+                            (Xogo en desenvolvemento xunto con uns amigos. Necesitamos axuda, só temos 1 nivel feito)
+                        </p>
+                        <a id="descargardemo" class="btn btn-outline-white">
+                            Descargar demo
+                            <i class="fas fa-download ml-2"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-xl-5 mb-4">
+                        <!-- <img src="" alt="" class="img-fluid"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-light2">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-md pb-3">
+                    <img src="img/juego0.jpg" class="img-fluid z-depth-1 rounded" alt="1">
+                </div>
+                <div class="col-md">
+                    <img src="img/juego1.jpg" class="img-fluid z-depth-1 rounded" alt="1">
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-md pb-3">
+                    <img src="img/juego2.jpg" class="img-fluid z-depth-1 rounded" alt="1">
+                </div>
+                <div class="col-md">
+                    <img src="img/juego3.jpg" class="img-fluid z-depth-1 rounded" alt="1">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-4 mx-2 pt-5">
+                <div class="col-md-7 z-depth-1-half py-4 px-4 rounded" style="border:3px solid #607d8b">
+                    <h3 class="h3 text-center blue-grey-text font-weight-bold mb-0">Equipo de desenvolvemento</h3>
+                </div>
+            </div>
+
+            <div class="row justify-content-center text-center">
+                <div class="col">
+                    <img class="rounded-circle shadow" src="img/ruben0.jpg" style="height:100px">
+                    <h2>Rubén</h2>
+                    <p>Fai cousas</p>
+                </div>
+                <div class="col">
+                    <img class="rounded-circle shadow" src="img/daniel.jpg" style="height:100px">
+                    <h2>Daniel</h2>
+                    <p>Jardinero, pon árbores e flores</p>
+                </div>
+                <div class="col">
+                    <img class="rounded-circle shadow" src="img/manuel.jpg" style="height:100px">
+                    <h2>Manuel</h2>
+                    <p>Artista</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col py-5">
+                    <p><strong>Buscamos xente.</strong> Necesitamos programadores, diseñadores, artistas,
+                        <strong>especialistas en especialidades</strong> e músicos. Daniel é quen paga.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-5 special-color">
+        <div class="container py-5 my-5">
+            <div class="row py-5">
+                <div class="col">
+                    <p class="white-text">Para o tfg estou preparando unha páxina de servizos e hosting. A páxina é <a class="text-warning" href="http://aloxa.me"> aloxa.me</a> En febreiro de 2021 espero ter acabado. Espero.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col white-text text-center py-5">
+                            <p> Tempo restante: </p>
+                            <p id="fecha"></p>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="py-5" style="background: radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);"> -->
+    <!-- <div class="container"> -->
+    <!-- <div class="row"> -->
+    <!-- <div class="col"> -->
+    <!-- <div class="card p-5" id="ip"> -->
+
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- <div class="row"> -->
+    <!-- <div class="col card my-5 p-5" id="chart"> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </section> -->
+
+    <section class="container py-5">
+        <div>
+            <h3>GPT-2 (modelo pequeniño)</h3>
+            <p>Xera texto a partir de un exemplo. En inglés</p>
+        </div>
+
+        <textarea class="form-control" id="textgpt" rows="8">Hello I am Swart and I can do aiml in 2020</textarea>
+        <!-- <input type="textarea" id="textgpt" placeholder="Escribe algo" aria-label="Escribe algo"> -->
+
+        <div class="load-bar" id="load-gpt" style="display:none">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <div class="input-group-append">
+            <button class="btn btn-outline-success" id="botongpt" type="button">Xerar</button>
+        </div>
+    </section>
+
+    <section class="peach-gradient">
+        <div class="container">
+            <h2 class="h2 white-text pt-5">Traballos web</h2>
+            <p>Cousas que fixen cando era mais novo</p>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md hoverable p-0 m-3">
+                    <a href="https://fogares.com" target="_blank"><img src="img/fogares.jpg" class="img-fluid z-depth-1"></a>
+                </div>
+                <div class="col-md hoverable p-0 m-3">
+                    <a href="http://concellosarreaus.com" target="_blank"><img src="img/concellosarreaus.jpg" class="img-fluid z-depth-1"></a>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md hoverable p-0 m-3">
+                    <a href="https://plebsoloqchallenge.com" target="_blank"><img src="img/plebsoloqchallenge.jpg" class="img-fluid z-depth-1 hoverable"></a>
+                </div>
+                <div class="col-md hoverable p-0 m-3 text-center">
+                    <a href="https://funerlamas.es" target="_blank"><img src="img/funerlamas.jpg" class="img-fluid z-depth-1"></a>
+                    <p>Hai que facer de todo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="elegant-color">
+        <div class="container">
+            <h2 class="white-text pt-5">Memes</h2>
+            <div class="row justify-content-center py-5">
+                <div class="col-md p-1">
+                    <img src="img/memeperro.jpg" class="img-fluid z-depth-1">
+                </div>
+                <div class="col-md p-1">
+                    <img src="img/cssisawesome.jpg" class="img-fluid z-depth-1">
+                </div>
+                <div class="col-md p-1">
+                    <img src="img/madera.jpg" class="img-fluid z-depth-1">
+                </div>
+                <div class="col-md p-1">
+                    <img src="img/daniel.jpg" class="img-fluid z-depth-1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <pre class="bg-success d-inline"> madre mia como foi decaindo o nivel
+    da páxina co paso do scroll</pre>
+
+    <footer class="page-footer text-center font-small mdb-color darken-2 py-3">
+        <p>Marcho que teño que marchar</p>
+        <span class="text-center p-2 rounded unique-color-dark">Rubén Solveira</span>
+    </footer>
+
+    <!-- Modales -->
+    <div class="modal fade" id="modal-descargardemo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-notify modal-info" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="heading lead">Weee</p>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <p>Témome que acabas de ser troleado xD</p>
+                        <p>Ainda non hai demo</p>
+                        <p class="grey-text">Adiooos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="js/mdb.min.js"></script>
+    <!-- Initializations -->
+    <script>
+        // Iniciar animacions
+        new WOW().init();
+        let datosip;
+
+        //O cliente envia unha peticion a seguinte direcion, esta conoce a sua ip, e envialle os seus datos en formato JSON. -->
+        $.getJSON('https://ipapi.co/json', function(data) {
+            //console.log(data);
+            datosip = data;
+            insertarDatos();
+            //document.getElementById("ip").innerHTML = '<p><span class="red-text h5">Atención.</span> A seguinte información non a gardo en ningun sitio, so a estas vendo ti.</p> <p>Esto é todo o que se sabe a partir da tua IP. Estes datos estan almacenados nunha base de datos publica que ofrece unha empresa. </p> <p class="text-center py-4 mb-5 border border-dark z-depth-1"> Túa IP é <strong>' + data.ip + '</strong>, estás en <strong>' + data.city + ' (' + data.country_name + ')</strong> e tes de proveedor a <strong>' + data.org + '</strong>.</p>';
+        });
+
+        function insertarDatos() {
+            $.ajax({
+                data: datosip, //datos que se envian a traves de ajax
+                url: './ajax_insertar_ip.php', //archivo que recibe a peticion
+                type: 'post', //método de envio
+                success: function(respuesta) { //unha vez que o archivo recibe o request  procesao e devolveo
+                    //console.log(respuesta);
+                }
+            });
+        }
+
+        $.ajax({
+            url: './ajax_datos_ip.php', //archivo que recibe a peticion
+            success: function(respuesta) {
+                //$('#chart').html(respuesta);
+            }
+        });
+
+
+        $('#descargardemo').click(function(e) {
+            e.preventDefault();
+            $('#modal-descargardemo').modal('show');
+        });
+
+
+        //Evitarque se introduzcan saltos de linea en el textarea
+        $('#textgpt').keypress(function(event) {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+            }
+        });
+
+        $('#botongpt').click(function(e) {
+            e.preventDefault();
+            let mensajeEntero = $('#textgpt').val();
+
+            //Pillar solo los ultimos 100 caracteres del texto si este es mas grande que 100 caracteres
+            let mensajeTemporal;
+            if (mensajeEntero.length > 100) {
+                mensajeTemporal = mensajeEntero.slice(mensajeEntero.length - 100);
+            } else {
+                mensajeTemporal = mensajeEntero;
+            }
+
+            $('#load-gpt').fadeIn('slow');
+            $('#botongpt').fadeOut('slow');
+
+            //Quitar las comillas dobles y los saltos de linea, que da error.
+            mensajeTemporal = decodeURI(mensajeTemporal);
+            mensajeTemporal = mensajeTemporal.replace(/\n|\r/g, " ");
+            mensajeTemporal = mensajeTemporal.replace('↵', " ");
+            mensajeTemporal = mensajeTemporal.replace('"', ' ');
+            console.log(mensajeEntero);
+            console.log(mensajeTemporal);
+
+            $.ajax({
+                data: {
+                    mensaje: mensajeTemporal
+                },
+                url: './ajax_gpt.php', //archivo que recibe a peticion
+                type: 'post',
+                dataType: 'json', //Se espera que php devuelva formato json
+                success: function(respuesta) {
+                    $('.load-bar').fadeOut("slow");
+                    $('#botongpt').fadeIn("slow");
+
+                    //A la respuesta tambien se le quitan las comillas dobles y los saltos de linea
+                    respuesta[0].generated_text = respuesta[0].generated_text.replace(/\n|\r/g, " ");
+                    respuesta[0].generated_text = respuesta[0].generated_text.replace('↵', " ");
+                    respuesta[0].generated_text = respuesta[0].generated_text.replace('"', ' ');
+
+                    //Pegar la respuesta generada al mensaje entero
+                    if (mensajeEntero.length > 100) {
+                        console.log(mensajeEntero.length)
+                        mensajeEntero = decodeURI(mensajeEntero + "" + respuesta[0].generated_text.slice(100));
+                    } else {
+                        mensajeEntero = decodeURI(respuesta[0].generated_text);
+                    }
+                    mensajeEntero = mensajeEntero.replace(/\n|\r/g, " ");
+                    mensajeEntero = mensajeEntero.replace('↵', " ");
+                    mensajeEntero = mensajeEntero.replace('"', ' ');
+
+                    $('#textgpt').val(mensajeEntero);
+                    $('#respuestagpt').html(respuesta[0].generated_text);
+                }
+            });
+        });
+
+
+        var fecha = new Date("Feb 1, 2021 12:00:00").getTime();
+        var x = setInterval(function() {
+            var fechaActual = new Date().getTime();
+            var intervalo = fecha - fechaActual;
+            var dias = Math.floor(intervalo / (1000 * 60 * 60 * 24));
+            var horas = Math.floor((intervalo % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutos = Math.floor((intervalo % (1000 * 60 * 60)) / (1000 * 60));
+            var segundos = Math.floor((intervalo % (1000 * 60)) / 1000);
+
+            document.getElementById("fecha").innerHTML = dias + "d " + horas + "h " +
+                minutos + "m " + segundos + "s ";
+
+            if (intervalo < 0) {
+                clearInterval(x);
+                document.getElementById("fecha").innerHTML = "Efectivamente, son imbécil";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
